@@ -1,8 +1,8 @@
 import { IGNORE_CSS_SELECTORS, ROOT, SCRAPE_CSS_SELECTOR, SUBPAGES } from './config';
-import path, {dirname} from 'path';
 import puppeteer, { Page } from 'puppeteer';
 
 import fs from 'fs';
+import path from 'path';
 
 function buildUrlToScrape(page: string) {
     return `${ROOT}${page}`;
