@@ -14,8 +14,8 @@ This repository provides a Node.js script that automates the process of scraping
 #### Clone the Repository:
 
 ```bash
-git clone <repository_url>
-cd <repository_directory>
+git clone https://github.com/ifmcjthenknczny/scrape-website-to-pdf
+cd scrape-website-to-pdf
 ```
 
 #### Install Dependencies:
